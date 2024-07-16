@@ -1,7 +1,7 @@
 resources:
 # IBM Software
 
-# - argocd/instances/sealed-secrets.yaml
+- argocd/instances/sealed-secrets.yaml
 #- argocd/operators/ibm-ace-operator.yaml
 #- argocd/operators/ibm-apic-operator.yaml
 #- argocd/instances/ibm-apic-instance.yaml
