@@ -76,9 +76,9 @@ resources:
 #- argocd/instances/ibm-paw.yaml
 
 # B2BI
-#- argocd/instances/ibm-sfg-db2-prod.yaml
-#- argocd/instances/ibm-sfg-mq-prod.yaml
-#- argocd/instances/ibm-sfg-b2bi-prod-setup.yaml
+- argocd/instances/ibm-sfg-db2-prod.yaml
+- argocd/instances/ibm-sfg-mq-prod.yaml
+- argocd/instances/ibm-sfg-b2bi-prod-setup.yaml
 #- argocd/instances/ibm-sfg-b2bi-prod.yaml
 #- argocd/instances/ibm-sfg-db2-nonprod.yaml
 #- argocd/instances/ibm-sfg-mq-nonprod.yaml
@@ -109,8 +109,6 @@ resources:
 #- argocd/operators/cert-manager.yaml
 #- argocd/instances/cert-manager-instance.yaml
 
-# Sealed Secrets
-#- argocd/instances/sealed-secrets.yaml
 
 # CICD
 #- argocd/operators/grafana-operator.yaml
